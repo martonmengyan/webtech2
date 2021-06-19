@@ -1,0 +1,23 @@
+.card{
+    width:400px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  mat-form-field{
+    width: 400px;
+  }
+  
+  .submit{
+    width: auto;
+    background-color: #4CAF50;
+  }
+  .title{
+    margin: 10px;
+  }
+  
+  .mat-toolbar.mat-primary {
+    background: #4CAF50;
+    color: #fff;
+  }
+  
+  

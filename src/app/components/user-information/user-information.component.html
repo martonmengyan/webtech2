@@ -1,0 +1,26 @@
+<mat-toolbar color="primary" class=" mat-elevation-z24">
+    <span>
+      <h1 class="title">Dolgok nyilvántartó rendszere</h1>
+    </span>
+    <span>
+      <a mat-raised-button (click)=toProductList()>Termék lista</a>
+    </span>
+    <span>
+      <a mat-raised-button (click)=logout()>Kijelentkezés</a>
+    </span>
+</mat-toolbar>
+
+<mat-card class="card">
+<mat-card-title>Személyes adatok:</mat-card-title>
+<mat-card-content>
+    <div>Felhasználónév: {{this.username}}</div>
+    <br>
+    <div>E-mail cím: {{this.email}}</div>
+    <br>
+    <a>Jelszó:</a>
+    <a id="secret" >****</a>
+    <br>
+    <a color="primary" mat-raised-button type="submit"  class="submit" onclick="javascript:history.back()">Vissza</a>
+    <button color="primary" mat-raised-button type="submit"  class="submit" (click)="displayPassword()">Jelszó mutatása/elrejtése</button>
+</mat-card-content>
+</mat-card>

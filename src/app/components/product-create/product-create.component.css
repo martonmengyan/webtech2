@@ -1,0 +1,53 @@
+.datacard{
+    margin: 20px;
+    width: 15vw
+  }
+  
+  mat-form-field{
+    width: 20vw;
+  }
+  
+  .sidenav{
+    width:20%;
+    height: 200%;
+  }
+  .logoutcard{
+    margin: 20px;
+    width: 15vw;
+  }
+  
+  .logout{
+    width: 15vw;
+  }
+  
+  mat-sidenav-container {
+    position: fixed;
+    height: 100%;
+    min-height: 100%;
+    width: 20%;
+  }
+  
+  .title{
+    margin: 10px;
+  }
+  
+  .card{
+    width:400px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  mat-form-field{
+    width: 400px;
+  }
+  
+  .submit{
+    width: auto;
+    background-color: #4CAF50;
+  }
+  
+  .mat-toolbar.mat-primary {
+    background: #4CAF50;
+    color: #fff;
+  }
+  
+  

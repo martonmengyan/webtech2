@@ -1,0 +1,22 @@
+<mat-toolbar color="primary" class=" mat-elevation-z24">
+    <mat-toolbar-row>
+      <span>
+        <h1 class="title">Dolgok nyilvántartó rendszere</h1>
+      </span>
+    </mat-toolbar-row>
+</mat-toolbar>
+    
+<mat-card class="card">
+    <mat-card-title>Sikeres bejelentkezés!</mat-card-title>
+    <mat-card-content>
+    
+    <button mat-raised-button (click)='toProductList()' color="primary" class="submit" >To the Product List!</button>
+    <br>
+    <button mat-raised-button (click)='toRegistration()' color="primary" class="submit" >Back to the Registration!</button>
+    <br>
+    <button mat-raised-button (click)='toUserInformation()' color="primary" class="submit" >To the My Information!</button>
+    <br>
+    <button mat-raised-button (click)='logout()' color="primary" class="submit">Kijelentkezés</button>
+    </mat-card-content>
+</mat-card>
+    
